@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('ComidaBack.jpg');
+    background-size:auto;
+    background-position:unset; ;    
+}
+form {
+    background-color: orange;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 400px;
+}
+input {
+    width: 100%;
+    padding: 4px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+button {
+    width: 100%;
+    padding: 4px;
+    margin: 10px 0;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5x;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #45a049;
+}
+ 
+ 
